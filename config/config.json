@@ -1,0 +1,9 @@
+{
+    "app" : {
+        "fastify" : { "useLogger" : false}
+    },
+    "dev" : {
+        "connectionString" : "mongodb://localhost:27017/tasks"
+    },
+    "prod" : {}
+}
